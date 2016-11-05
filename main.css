@@ -2,6 +2,6 @@ body {
     background-color: #282828;
 }
 
-li.active {
+.navbar-brand {
     color: #CC241D;
 }
