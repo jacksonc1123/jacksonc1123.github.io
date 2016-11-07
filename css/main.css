@@ -34,7 +34,7 @@ body {
     background-color: #589D6A;
 }
 
-.jumbotron {
+#headjumbo {
     background: #589D6A;
     background-size: cover;
     position: static;
@@ -74,4 +74,19 @@ body {
     color: #FBF1C7;
 }
 
+.featured {
+    background: url("../image/screen.png");
+    background-size: cover;
+    min-height: 100px;
+}
 
+.hover-text {
+    position: absolute;
+    visibility: hidden;
+}
+
+.hover-text:hover {
+    visibility: visible;
+    cursor: pointer;
+    opacity: 1;
+}
