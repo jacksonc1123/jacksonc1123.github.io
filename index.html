@@ -34,17 +34,17 @@
       </div>
     </div>
 
-    <!-- <script> -->
-    <!--   var jumboHeight = $('.jumbotron').outerHeight(); -->
-    <!--   function parallax(){ -->
-    <!--   var scrolled = $(window).scrollTop(); -->
-    <!--   $('.bg').css('height', (jumboHeight-scrolled) + 'px'); -->
-    <!--   } -->
+    <script>
+      var jumboHeight = $('.jumbotron').outerHeight();
+      function parallax(){
+      var scrolled = $(window).scrollTop();
+      $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+      }
 
-    <!--   $(window).scroll(function(e){ -->
-    <!--   parallax(); -->
-    <!--   }); -->
-    <!-- </script> -->
+      $(window).scroll(function(e){
+      parallax();
+      });
+    </script>
 
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
@@ -56,6 +56,19 @@
 	</ul>
       </div>
     </nav>
+
+    <!-- Show off most recent project -->
+    <div class="container content">
+      <img src="image/cam.jpg" alt="me" class="img-circle">
+      <div class="row content">
+	<div class="col-md-6">
+	  <p>Column 1 stuff, I'll figure out what goes here later</p>
+	</div>
+	<div class="col-md-6">
+	  <p>Column 2 stuff, I'll figure out what goes here later</p>
+	</div>
+      </div>
+    </div>
 
   </body>
 </html>

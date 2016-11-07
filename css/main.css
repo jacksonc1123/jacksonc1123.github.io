@@ -25,13 +25,13 @@ body {
 }
 
 .nav>li.active>a,
-.nav>li.active>a:hover
- {
-    background-color: #427B58;
+.nav>li.active>a:hover {
+    color: #282828;
+    background-color: #589D6A;
 }
 
 .nav>li>a:hover {
-    background-color: #689D6A;
+    background-color: #589D6A;
 }
 
 .jumbotron {
@@ -67,10 +67,11 @@ body {
     margin: auto;
 }
 
-#prompt {
-    color: #B8BB26;
+.content {
+    width: 80%;
+    margin: 15px auto;
+    text-align: center;
+    color: #FBF1C7;
 }
 
-.cmd {
-    display: inline-block;
-}
+
