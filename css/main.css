@@ -21,3 +21,16 @@ body {
 .bustshot {
 	width: 100%;
 }
+
+.section-center {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #163636;
+}
+
+a:hover {
+	color: #FAA916;
+}
