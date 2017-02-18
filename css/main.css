@@ -12,7 +12,6 @@ body {
 }
 
 .mobile {
-	padding: auto;
 	text-align: center;
 }
 
@@ -42,12 +41,16 @@ body {
 
 .bustshot-wrapper {
 	display: block;
+	margin: auto;
 	position: relative;
 	overflow: hidden;
 	border-radius: 4px;
 	border: 1px solid #163634;
 	max-width: 300px;
-	align-content: center;
+}
+
+.bustshot {
+	display: block;
 }
 
 .section-center {
