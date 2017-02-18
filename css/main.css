@@ -11,10 +11,16 @@ body {
   box-sizing: border-box; 
 }
 
+.mobile {
+	text-align: center;
+}
+
 .bustshot-wrapper {
 	display: block;
 	position: relative;
 	overflow: hidden;
+	border-radius: 4px;
+	border: 1px solid #163634;
 	width: 300px;
 }
 
@@ -33,4 +39,16 @@ a {
 
 a:hover {
 	color: #FAA916;
+}
+
+@media only screen and (max-width: 412px) {
+	.desktop {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 413px) {
+	.mobile {
+		display: none;
+	}
 }
