@@ -15,6 +15,30 @@ body {
 	text-align: center;
 }
 
+@media only screen and (max-width: 414px) {
+	.desktop {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 415px) {
+	.mobile {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 822px) {
+	.smallscreen {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 822px) {
+	.fullscreen {
+		display: none;
+	}
+}
+
 .bustshot-wrapper {
 	display: block;
 	position: relative;
@@ -23,10 +47,6 @@ body {
 	border: 1px solid #163634;
 	max-width: 300px;
 }
-
-/*.bustshot {
-	width: 100%;
-}*/
 
 .section-center {
 	text-align: center;
@@ -39,16 +59,4 @@ a {
 
 a:hover {
 	color: #FAA916;
-}
-
-@media only screen and (max-width: 414px) {
-	.desktop {
-		display: none;
-	}
-}
-
-@media only screen and (min-width: 415px) {
-	.mobile {
-		display: none;
-	}
 }
