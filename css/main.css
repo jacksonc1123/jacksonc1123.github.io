@@ -67,26 +67,31 @@ body {
     margin: auto;
 }
 
+hr.hr-style1 { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #427B58; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+hr.hr-style1:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #427B58; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+
 .content {
     width: 80%;
     margin: 15px auto;
     text-align: center;
-    color: #FBF1C7;
+    color: #BDAE93;
 }
 
-.featured {
-    background: url("../image/screen.png");
-    background-size: cover;
-    min-height: 100px;
-}
-
-.hover-text {
-    position: absolute;
-    visibility: hidden;
-}
-
-.hover-text:hover {
-    visibility: visible;
-    cursor: pointer;
-    opacity: 1;
+.caption {
+    font-size: 1em;
 }

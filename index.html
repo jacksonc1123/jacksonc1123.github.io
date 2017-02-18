@@ -22,56 +22,11 @@
 	<![endif]-->
   </head>
   <body>
-    <!-- Jumbotron -->
-    <div class="jumbotron" id="headjumbo">
-	<div id="bio">
-	  <h1>Cameron Phineas Jackson</h1>
-	  <p>
-	    Student at the FAMU-FSU College of Engineering majoring in Computer
-	    Engineering. 
-	  </p>
-	</div>
-      </div>
-    </div>
+  	<h1>Cameron Phineas Jackson</h1>
+  	<hr>
 
-    <script>
-      var jumboHeight = $('.jumbotron').outerHeight();
-      function parallax(){
-      var scrolled = $(window).scrollTop();
-      $('.bg').css('height', (jumboHeight-scrolled) + 'px');
-      }
 
-      $(window).scroll(function(e){
-      parallax();
-      });
-    </script>
 
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-	<ul class="nav nav-pills">
-	  <li role="presentation" class="active"><a href="index.html">Home</a></li>
-	  <li role="presentation"><a href="about.html">About</a></li>	  
-	  <li role="presentation"><a href="projects.html">Projects</a></li>
-	  <li role="presentation"><a href="resume.html">Resume</a></li>
-	</ul>
-      </div>
-    </nav>
-
-    <!-- Show off most recent project -->
-    <div class="container content">
-      <img src="image/cam.jpg" alt="me" class="img-circle"/>
-      <div class="row content">
-	<div class="col-md-6">
-	  <div class="featured">
-	    <!-- <img src="image/screen.png" alt="screen" class="screen"/> -->
-	    <p class="hover-text">In progress...</p>
-	  </div>
-	</div>
-	<div class="col-md-6">
-	  <p>Column 2 stuff, I'll figure out what goes here later</p>
-	</div>
-      </div>
-    </div>
 
   </body>
 </html>
