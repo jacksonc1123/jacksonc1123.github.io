@@ -5,10 +5,21 @@ body {
 
 .header {
 	position: relative;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box; 
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.main {
+	margin: 10px auto;
+}
+
+.footer {
+	bottom: 0;
+	background-color: #163634;
+	color: #FFFFFF;
+	margin-top: 10px;
+	padding: 10px;
 }
 
 .mobile {
